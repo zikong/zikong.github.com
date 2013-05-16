@@ -1,2 +1,3 @@
 name: 紫空的博客
 pygments: true
+markdown: rdiscount
