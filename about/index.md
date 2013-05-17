@@ -19,7 +19,7 @@ comments: yes
 
 本站目前采用Jekyll作为后台系统。我一直想弄一个博客能够自己写写，来点文艺范。我在无意中了解到了，Jekyll，一个以纯文本文件形式写博客的系统，其作者在写出这套系统后曾经写了一篇日志“[像一个黑客一样写博客](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html)”，发现他太帅了所以就果断建了一个。
 
-博客模板是在[Yihui Xie](http://lhzhang.com/)那里扒过来的，很喜欢这个简洁的设计。
+博客模板是在[Yihui Xie](http://http://yihui.name/cn/)那里扒过来的，很喜欢这个简洁的设计。
 
 未完待续。
 
