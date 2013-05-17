@@ -1,3 +1,5 @@
 name: 紫空的博客
 pygments: true
 markdown: rdiscount
+#url: http://zikong.github.com
+permalink: /:year/:month/:title/
