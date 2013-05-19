@@ -1,0 +1,274 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"file",
+				"filepath"
+			],
+			[
+				"fil",
+				"filelist"
+			],
+			[
+				"print",
+				"printGender"
+			],
+			[
+				"happ",
+				"happyBirds"
+			],
+			[
+				"lau",
+				"laugh_100th"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/zikong/zikong.github.com/_posts/2013-05-17-python-os.path-and-glob.markdown",
+			"settings":
+			{
+				"buffer_size": 2102,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				"ip",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/zikong/zikong.github.com/_layouts/post.html",
+		"/Users/zikong/zikong.github.com/_includes/comments.md",
+		"/Users/zikong/zikong.github.com/about/index.md",
+		"/Users/zikong/zikong.github.com/links/index.md",
+		"/Users/zikong/cn/_layouts/default.html",
+		"/Users/zikong/zikong.github.com/tags/index.md",
+		"/Users/zikong/zikong.github.com/_posts/2013-05-17-python-os.path-and-glob.markdown",
+		"/Users/zikong/zikong.github.com/media/css/style.css",
+		"/Users/zikong/zikong.github.com/media/css/home.css",
+		"/Users/zikong/zikong.github.com/_posts/2013-05-16-welcome-to-jekyll.markdown",
+		"/Users/zikong/zikong.github.com/_posts/2013-05-17-python-os.path-and-glob.md",
+		"/Users/zikong/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/zikong/zikong.github.com/_posts/2013-05-17-python- os.path and glob",
+		"/Users/zikong/zikong.github.com/_posts/2013-05-17-python标准库- os.path包和glob包学习",
+		"/Users/zikong/zikong.github.com/guestbook/index.md",
+		"/Users/zikong/zikong.github.com/feed/index.html",
+		"/Users/zikong/zikong.github.com/_config.yml",
+		"/Users/zikong/zikong.github.com/_layouts/default.html",
+		"/Users/zikong/zikong.github.com/_layouts/page.html",
+		"/Users/zikong/zikong.github.com/index.md",
+		"/Users/zikong/zikong.github.com/_posts/_2012-04-30-break-points-in-regression.Rmd",
+		"/Users/zikong/zikong.github.com/_posts/_knit-all.R",
+		"/Users/zikong/zikong.github.com/_site/guestbook/index.html",
+		"/Users/zikong/cn/publication/index.md",
+		"/Users/zikong/zikong.github.com/_site/index.html",
+		"/Users/zikong/cn/_posts/_knit-all.R",
+		"/Users/zikong/cn/categories/index.md",
+		"/Users/zikong/zikong.github.com/vitae/index.md",
+		"/Users/zikong/cn/feed/index.html",
+		"/Users/zikong/cn/vitae/index.md",
+		"/Users/zikong/cn/_layouts/post.html",
+		"/Users/zikong/cn/_layouts/page.html",
+		"/Users/zikong/cn/_includes/comments.md",
+		"/Users/zikong/cn/index.md",
+		"/Users/zikong/zikong.github.com/index.html",
+		"/Users/zikong/cn/_config.yml",
+		"/Users/zikong/zikong.github.com/css/syntax.css",
+		"/Users/zikong/zikong.github.com/_includes/JB/comments-providers/disqus",
+		"/Users/zikong/zikong.github.com/_includes/themes/dinky/default.html",
+		"/Users/zikong/zikong.github.com/_includes/JB/analytics",
+		"/Users/zikong/zikong.github.com/_includes/JB/setup",
+		"/Users/zikong/zikong.github.com/_includes/JB/sharing",
+		"/Users/zikong/jekyll/_config.yml",
+		"/Users/zikong/zikong.github.com/_includes/themes/dinky/post.html",
+		"/Users/zikong/zikong.github.com/_includes/themes/dinky/page.html",
+		"/Users/zikong/zikong.github.com/_includes/themes/dinky/settings.yml",
+		"/Users/zikong/jekyll/css/styles.css",
+		"/Users/zikong/jekyll/_posts/20130515 helloworld.md",
+		"/Users/zikong/jekyll/index.html",
+		"/Users/zikong/jekyll/_layouts/default.html",
+		"/Users/zikong/jekyll/css/style.css",
+		"/Users/zikong/jekyll/_css/style.css",
+		"/Users/zikong/jekyll/_site/index.html",
+		"/Users/zikong/jekyll/_layouts/20130515 helloworld",
+		"/Users/zikong/Documents/Python/ls.py",
+		"/Users/zikong/Documents/Python/1.txt",
+		"/Users/zikong/Documents/Python/hello.py",
+		"/Users/zikong/Documents/DjangoProject/mysite/manage.py",
+		"/Users/zikong/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/zikong/Documents/Python/douban.py",
+		"/Users/zikong/Documents/Python/test.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"container",
+			"\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/zikong/zikong.github.com/_posts/2013-05-17-python-os.path-and-glob.markdown",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "comments.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 426.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
