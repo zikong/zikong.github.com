@@ -1,0 +1,53 @@
+---
+layout: post
+title:  Mac 上安装MySQL
+date:   2013-06-13 01:50:00
+categories: [MySQL, Mac]
+tags: [MySQL, Mac]
+---
+
+###1.安装MySQL
+
+1.下载MySQL[下载地址](http://dev.mysql.com/downloads/mysql/#downloads),选择要下载的版本，建议选择DMG安装包，用着比较方便。
+2.解压并安装DMG包中的mysql-5.6.12-osx10.7-x86_64.pkg，然后安装MySQLStartupItem.pkg。
+
+＃注
+MySQL的Mac OS X PKG安装到/usr/local/mysql-VERSION，并且还会安装一个符号连接，/usr/local/mysql，指向新的位置。如果有/usr/local/mysql目录，首先将它改名为/usr/local/mysql.bak。安装完后，安装器执行mysql_install_db在MySQL数据库中创建授权表。 
+
+安装布局与tar文件二进制分发版类似；所有MySQL二进制代码位于目录/usr/local/mysql/bin中。默认情况，MySQL套接字文件创建为/tmp/mysql.sock。 
+如果你想在系统启动过程中自动启动MySQL，你还需要安装MySQL Startup Item。在MySQL 5.1中,它是Mac OS X安装盘映像的一部分，是一个独立的安装软件包。只需要双击MySQLStartupItem.图标并按照说明来安装。 
+
+MySQL 5.1的Startup Item安装在/Library/StartupItems/MySQLCOM。Startup Item安装时在系统配置文件/etc/hostconfig中加入变量MySQLCOM=-YES-。如果你想要disable自动启动MySQL，只需要将该变量更改为MySQLCOM=-NO-。 
+安装完后，可以在终端窗口运行下面的命令来启动MySQL。你必须具有管理员权限来执行该任务。
+
+3.如果你已经安装的Startup Item： 
+
+shell> sudo /Library/StartupItems/MySQLCOM/MySQLCOM start 
+
+(Enter your password, if necessary) 
+
+(Press Control-D or enter "exit" to exit the shell) 
+
+如果不使用Startup Item，输入下面的命令序列： 
+
+shell> cd /usr/local/mysql 
+
+shell> sudo ./bin/mysqld_safe 
+
+(Enter your password, if necessary) 
+
+(Press Control-Z) 
+
+shell> bg 
+
+(Press Control-D or enter "exit" to exit the shell) 
+
+4.运行/usr/local/mysql/bin/mysql。
+
+＃注
+如果出现Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)错误:
+
+cd /usr/local/mysql/bin/mysql
+修改该文件夹下my.cnf文件 添加socket = /tmp/mysql.sock
+
+

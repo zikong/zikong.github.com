@@ -1,0 +1,11 @@
+# Default github user(jlzikong@gmail.com)
+Host github.com
+ HostName github.com
+ User git
+ IdentityFile C:/Users/username/.ssh/id_rsa
+
+# second user(zikong@appest.com)
+Host github-second
+ HostName github.com
+ User git
+ IdentityFile C:/Users/username/.ssh/id_rsa_second
