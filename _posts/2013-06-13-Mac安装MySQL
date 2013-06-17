@@ -22,6 +22,7 @@ MySQL 5.1的Startup Item安装在/Library/StartupItems/MySQLCOM。Startup Item�
 
 3.如果你已经安装的Startup Item： 
 
+{% highlight shell %}
 shell> sudo /Library/StartupItems/MySQLCOM/MySQLCOM start 
 
 (Enter your password, if necessary) 
@@ -41,13 +42,16 @@ shell> sudo ./bin/mysqld_safe
 shell> bg 
 
 (Press Control-D or enter "exit" to exit the shell) 
+{% endhighlight %}
 
 4.运行/usr/local/mysql/bin/mysql。
 
 ＃注
 如果出现Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)错误:
 
+{% hightlight shell %}
 cd /usr/local/mysql/bin/mysql
+{% endhightlight %}
 修改该文件夹下my.cnf文件 添加socket = /tmp/mysql.sock
 
 
