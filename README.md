@@ -1,4 +1,4 @@
-zikong.github.com
+紫空的博客
 =================
 
-ZiKong's Pages
+这是我自己的个人博客！
