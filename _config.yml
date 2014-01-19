@@ -6,7 +6,7 @@ markdown: rdiscount
 
 author: "zikong"
 atom-baseurl: "http://zikong.cc"
-disqus: "gopherwood"
+disqus: "zikong"
 
 navigations:
   - title: Archive
