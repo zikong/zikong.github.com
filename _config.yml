@@ -1,5 +1,29 @@
-name: 紫空的博客
-pygments: true
 markdown: rdiscount
-#url: http://zikong.github.com
-permalink: /:year/:month/:title/
+pygments: true
+permalink: /:year/:month/:day/:title.html
+name: "zikong"
+markdown: rdiscount
+
+author: "zikong"
+atom-baseurl: "http://zikong.cc"
+disqus: "gopherwood"
+
+navigations:
+  - title: Archive
+    class: fa fa-list-ul
+    href: /archive.html
+  - title: Tags
+    class: fa fa-tags
+    href: /tags.html
+  - title: About
+    class: fa fa-user
+    href: /about.html
+  - title: Gallery
+    class: fa fa-film
+    href: http://foto.lhzhang.com
+  - title: Blogroll
+    class: fa fa-link
+    href: /links.html
+  - title: Subscribe
+    class: fa fa-rss
+    href: /atom.xml

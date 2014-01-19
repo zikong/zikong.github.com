@@ -1,0 +1,77 @@
+---
+title: python标准库:os.path包和glob包学习
+layout: post
+guid: urn:uuid:7a2aa1f4-af58-4f2f-b643-a1af6a84c7ba
+tags:
+  - python
+---
+
+###os.path包
+
+	os.path包主要用于处理字符串路径，比如'/home/zikong/doc/file.doc'，提取出有用的信息。
+	import os.path
+	path = '/home/zikong/doc/file.doc'
+
+	print(os.path.basename(path))    # 查询路径中包含的文件名
+	print(os.path.dirname(path))     # 查询路径中包含的目录
+
+	info = os.path.split(path)       # 将路径分割成文件名和目录两个部分，放在一个表中返回
+	path2 = os.path.join('\', 'home', 'zikong', 'doc', 'file.doc')  #使用目录名和文件名构成一个路径字符串
+
+	p_list = [path, path2]
+	print(os.path.commonprefix(p_list))    # 查询多个路径的共同部分
+
+	os.path.normpath(path) # 去除路径path中的冗余。比如'/home/vamei/../.'被转化为'/home'
+	#os.path还可以查询文件的相关信息(metadata)。文件的相关信息不存储在文件内部，而是由操作系统
+	#维护的，关于文件的一些信息(比如文件类型，大小，修改时间)。
+
+
+	import os.path 
+	path = '/home/vamei/doc/file.txt'
+
+	print(os.path.exists(path))    # 查询文件是否存在
+
+	print(os.path.getsize(path))   # 查询文件大小
+	print(os.path.getatime(path))  # 查询文件上一次读取的时间
+	print(os.path.getmtime(path))  # 查询文件上一次修改的时间
+
+	print(os.path.isfile(path))    # 路径是否指向常规文件
+	print(os.path.isdir(path))     # 路径是否指向目录文件
+
+
+###glob包
+glob是python自己带的一个文件操作相关模块，内容也不多，用它可以查找符合自己目的的文件，就类似于Windows下的文件搜索，而且也 支持通配符，*,?,[]这三个通配符，*代表0个或多个字符，?代表一个字符，[]匹配指定范围内的字符，如[0-9]匹配数字。
+
+glob方法：
+返回所有匹配的文件路径列表，该方法需要一个参数用来指定匹配的路径字符串（本字符串可以为绝对路径也可以为相对路径），比如：
+
+	import glob
+	glob.glob("/home/zikong/doc/*.doc")
+
+> 
+/home/zikong/doc/file1.doc
+/home/zikong/doc/file2.doc
+
+###例子
+综合利用两个包写的一个类似于linux下的ls函数：
+
+	#coding = utf8
+	import glob
+	import os.path
+	path = '/Users/zikong/Pictures'
+	def ls(path):
+	        #codinf = utf8
+	        print "--name--   --type--  --size--  --atime--  --mtime-- "
+	        path = path + '/*'
+	        filelist = glob.glob(path)
+	        for filepath in filelist:
+	                out = '%s  %s  %s  %s  %s'%(filepath.split('/')[4] ,os.path.isfile(filepath) ,os.path.getsize(filepath) ,os.path.getatime(filepath) ,os.path.getmtime(filepath))
+	                print out
+
+	ls(path)
+
+###注意
+
+	#coding=utf
+	
+是为了让python能够显示中文

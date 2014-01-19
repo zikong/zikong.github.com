@@ -1,9 +1,10 @@
 ---
+title: Mac上安装MySQL
 layout: post
-title:  Mac 上安装MySQL
-date:   2013-06-13 01:50:00
-categories: [MySQL, Mac]
-tags: [MySQL, Mac]
+guid: urn:uuid:a8ca4d7c-0652-4e58-9d0b-3debaa4b0e61
+tags:
+  - Mac
+  - MySQL
 ---
 
 ###1.安装MySQL
@@ -23,37 +24,23 @@ MySQL 5.1的Startup Item安装在/Library/StartupItems/MySQLCOM。Startup Item�
 
 3.如果你已经安装的Startup Item： 
 
-{% highlight bash %}
-shell> sudo /Library/StartupItems/MySQLCOM/MySQLCOM start 
-
-(Enter your password, if necessary) 
-
-(Press Control-D or enter "exit" to exit the shell) 
-
-如果不使用Startup Item，输入下面的命令序列： 
-
-shell> cd /usr/local/mysql 
-
-shell> sudo ./bin/mysqld_safe 
-
-(Enter your password, if necessary) 
-
-(Press Control-Z) 
-
-shell> bg 
-
-(Press Control-D or enter "exit" to exit the shell) 
-{% endhighlight %}
+	shell> sudo /Library/StartupItems/MySQLCOM/MySQLCOM start 
+	(Enter your password, if necessary) 
+	(Press Control-D or enter "exit" to exit the shell) 
+	如果不使用Startup Item，输入下面的命令序列： 
+	shell> cd /usr/local/mysql 
+	shell> sudo ./bin/mysqld_safe 
+	(Enter your password, if necessary) 
+	(Press Control-Z) 
+	shell> bg 
+	(Press Control-D or enter "exit" to exit the shell) 
 
 4.运行/usr/local/mysql/bin/mysql。
 
 ＃注
 如果出现Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)错误:
 
-{% highlight bash %}
-cd /usr/local/mysql/bin/mysql
-{% endhighlight %}
+	cd /usr/local/mysql/bin/mysql
+
 
 修改该文件夹下my.cnf文件 添加socket = /tmp/mysql.sock
-
-
