@@ -27,8 +27,9 @@ GCC的编译器可以让你的代码段在一个小括号包起来的情况下�
 
 ###优点
 这样写有两个好处：
-* 可以让你的代码看起来结构简单，逻辑清晰，简单的说就是让你的代码看起来更漂亮
-* 可以让你在一个函数里面重复使用一些常见且意义明确的变量名字如(frame, view, button ...)，并且不会和其他部分冲突。
+
+  * 可以让你的代码看起来结构简单，逻辑清晰，简单的说就是让你的代码看起来更漂亮
+  * 可以让你在一个函数里面重复使用一些常见且意义明确的变量名字如(frame, view, button ...)，并且不会和其他部分冲突。
 
 这样写也确实不会对你的代码的运行效率什么的有提升，就是看起来好看。但是[Matt Thompson](http://mattt.me/)大神则预言在2014年底的时候这种写法将会非常普遍。
 
@@ -45,5 +46,6 @@ GCC的编译器可以让你的代码段在一个小括号包起来的情况下�
 	});
 
 ###参考文章
-[Reader Submissions - New Year's 2014](http://nshipster.com/new-years-2014/)
+
+[Reader Submissions - New Year's 2014](http://nshipster.com/new-years-2014/)  
 [New thing I do in code](http://cocoa-dom.tumblr.com/)
